@@ -19,7 +19,17 @@ Gitub is the 'hub' that holds and saves the snapshots of code. Github also makes
 The first step in creating one's own Github account is signing up online. 
 
 (where I will insert the first image)
-After filling this and signing up it's important to create your 
+After filling this and signing up it's important to create your SSH key. This is used to authenticate your remote computer and allow it to authenticate the user, if necessary. 
+
+- Go to your Github and go to Settings 
+- In the user settings sidebar, click SSH and GPG keys. 
+- GO to New SSH key 
+- In the "Title" field, add a descriptive label for the new key. 
+- Paste your key into the "Key" field.
+- Click Add SSH key.
+
+Ta-Dah! You have a new SSH key! Now you  can use your key to create a new repository or push an existing repository you have an SSH key. 
+
 ## Repository Setup
 
 
