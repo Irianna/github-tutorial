@@ -32,7 +32,19 @@ Ta-Dah! You have a new SSH key! Now you  can use your key to create a new reposi
 
 ## Repository Setup
 
-Here we create repository's that 
+Here we create repository's that we store our work in and send into the Git cloud. To create a directory you use the command `mkdir` 
+This will create your new directory.
+
+You can do whatever you like ithin your repo, just be aware of the changes and progress you make. When you reach a  point you want to push it the cloud : 
+
+`git init`
+
+`git add .`
+
+`git commit -m " ~this is your commit message~ "`
+
+`git push -u origin master`
+
 
 
 ---
