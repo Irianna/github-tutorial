@@ -32,10 +32,25 @@ Ta-Dah! You have a new SSH key! Now you  can use your key to create a new reposi
 
 ## Repository Setup
 
+Here we create repository's that 
 
 
 ---
 ## Workflow & Commands
 
+Git status
 
+- Git status is used to tell you ehat files have recently been edited and helps a coder keep track of their work. It is good to use it to keepp track of your actions when using Git. 
+
+Git add .
+
+- Git add is used to add the code onto the "stage" so that it can be sent up into the cloud. It doesnt send the code 
+
+Git commit -m " message "
+
+- Git commit puts your changes into your local repos and produces a suitable commit message so that you can keep track of your changes. 
+
+git push -u origin master
+
+- Git push sends your changes to the remote location. git push is used to add commits you have done on the local repository to a remote one
 --- 
